@@ -3,6 +3,8 @@ http://ionicframework.com/docs/theming/ */
 
 /** Ionic CSS Variables **/
 :root {
+  --ion-background-color: transparent;
+
   /** primary **/
   --ion-color-primary: #50cde9;
   --ion-color-primary-rgb: 80, 205, 233;
