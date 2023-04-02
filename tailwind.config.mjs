@@ -2,7 +2,7 @@ const plugin = require("tailwindcss/plugin");
 
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/*.{tsx,ts}", "./src/**/*.{tsx,ts}"],
+  content: ["./src/*.{tsx,ts,mts}", "./src/**/*.{tsx,ts,mts}"],
   theme: {
     extend: {},
   },

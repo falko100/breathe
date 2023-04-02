@@ -4,6 +4,7 @@ import { useState } from "react";
 export type Sound = {
   slug: string;
   name: string;
+  bg: string;
   description: string;
   tags: string[];
   image: string;

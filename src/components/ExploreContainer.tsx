@@ -3,9 +3,7 @@ import { IonIcon, useIonViewWillLeave } from "@ionic/react";
 import { MediaSession } from "@jofr/capacitor-media-session";
 
 import {
-  alarmOutline,
   arrowBack,
-  arrowForward,
   heart,
   heartOutline,
   moon,
@@ -140,6 +138,7 @@ const ExploreContainer: React.FC<ContainerProps> = ({
   }
 
   function startSleepTimer() {
+    setTime(Date.now());
     const timeoutDuration = 15 * 60 * 1000;
     const sleepTimerRef = setTimeout(() => {
       audioPlayer?.pause();

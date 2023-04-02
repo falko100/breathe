@@ -21,7 +21,7 @@ const Page: React.FC = () => {
   }
 
   return (
-    <IonPage className="pt-10 ios:pt-20 android:pt-10 bg-gradient-to-br from-cyan-200 from-10% via-sky-200 via-30% to-white">
+    <IonPage className={"pt-10 ios:pt-20 android:pt-10 " + sound.bg}>
       <IonContent fullscreen>
         <ExploreContainer sound={sound} />
       </IonContent>
